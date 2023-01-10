@@ -17,7 +17,7 @@ const UserSchema = new mongoose.Schema(
     email: {
       type: String,
       required: true,
-      min: 2,
+      max: 50,
       unique: true,
     },
     password: {
@@ -27,7 +27,7 @@ const UserSchema = new mongoose.Schema(
     },
     picturePath: {
       type: String,
-      default: "true",
+      default: "",
     },
     friends: {
       type: Array,
@@ -38,7 +38,7 @@ const UserSchema = new mongoose.Schema(
     viewedProfile: Number,
     impressions: Number,
   },
-  { timestamps: true },
+  { timestamps: true }
 );
 
 const User = mongoose.model("User", UserSchema);
