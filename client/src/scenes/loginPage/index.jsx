@@ -13,7 +13,7 @@ const LoginPage = () => {
         textAlign="center"
       >
         <Typography fontWeight="bold" fontSize="32px" color="primary">
-          Sociopedia
+          MERN App
         </Typography>
       </Box>
 
@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to Socipedia, the Social Media for Sociopaths!
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, alias rem? Adipisci amet assumenda atque debitis deleniti laboriosam laudantium modi nulla possimus quasi quis quisquam sapiente, sequi, sint suscipit tempore!
         </Typography>
         <Form />
       </Box>
