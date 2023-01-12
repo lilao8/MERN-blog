@@ -7,7 +7,6 @@ import FriendListWidget from "../widgets/FriendListWidget";
 import MyPostWidget from "../widgets/MyPostWidget";
 import UserWidget from "../widgets/UserWidget";
 import PostsWidget from "../widgets/PostsWidget";
-import AdvertWidget from "../widgets/AdvertWidget";
 
 const ProfilePage = () => {
   const [user, setUser] = useState(null);
