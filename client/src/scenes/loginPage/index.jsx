@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, alias rem? Adipisci amet assumenda atque debitis deleniti laboriosam laudantium modi nulla possimus quasi quis quisquam sapiente, sequi, sint suscipit tempore!
+          Sign in or register a new account to my social media app!
         </Typography>
         <Form />
       </Box>
